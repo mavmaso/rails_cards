@@ -1,5 +1,9 @@
 <H1>Bem-vindo ao app Cards do MvS</H1>
 
+Temos aqui:  
 <ul>
-    
+    <%@cards.each do |card|%>
+    <li><%=" Portugues =#{card.portugues()}, Ingles=#{card.ingles()} " %></li>
+    <% end %>
+    <li><%=@teste %></li>
 </ul>

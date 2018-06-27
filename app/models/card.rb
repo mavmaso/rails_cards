@@ -6,6 +6,8 @@ attr_accessor :portugues, :ingles
         @ingles = ingles
     end
 
-    
+    def new
+        
+    end
       
 end

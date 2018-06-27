@@ -9,7 +9,7 @@ class CardsController < ApplicationController
         port = card[:portugues]
         ing = params[:card][:ingles] 
 
-        c = Card.new(portugues: port, :ingles: ing)
+        c = Card.new(portugues: port, ingles: ing)
         c.save()
        redirect_to "/"
 

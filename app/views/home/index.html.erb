@@ -3,7 +3,7 @@
 Temos aqui:  
 <ul>
     <%@cards.each do |c|%>
-    <li><a href=""><%=" #{c.portugues()} " %></a></li>
+    <li><a href="/ver_traducao/<%= c.id() %>">  <%= c.portugues() %></a></li>
     <% end %>
     <li><%=@teste %></li>
 </ul>

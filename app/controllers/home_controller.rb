@@ -1,9 +1,7 @@
 class HomeController < ApplicationController 
     
     def index
-        @teste = "Ola mundo"
-        @cards = []
-        @cards << Card.new('oi','hi')   
+        @cards = Card.all()  
     end
 
     def ver_traducao

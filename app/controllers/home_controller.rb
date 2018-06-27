@@ -6,4 +6,9 @@ class HomeController < ApplicationController
         @cards << Card.new('oi','hi')   
     end
 
+    def ver_traducao
+        id = params[:id]
+        @card = Card.find(id)
+    end
+
 end

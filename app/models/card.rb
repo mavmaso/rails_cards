@@ -5,5 +5,7 @@ attr_accessor :portugues, :ingles
         @portugues = portugues
         @ingles = ingles
     end
+
+    
       
 end

@@ -1,0 +1,10 @@
+<h1>Cadastrar novas traducoes</h1>
+
+<h2>Formulario</h2>
+<%=form_for(Cards.new) do |f|%>
+    <%= f.label :portugues%>
+    <%= f.text_field :portugues%>
+    <%= f.label :ingles%>
+    <%= f.text_field :ingles%>
+    <%= f.submit %>
+<%end%>

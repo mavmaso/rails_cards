@@ -2,8 +2,11 @@
 
 Temos aqui:  
 <ul>
-    <%@cards.each do |card|%>
-    <li><%=" Portugues =#{card.portugues()}, Ingles=#{card.ingles()} " %></li>
+    <%@cards.each do |c|%>
+    <li><a href=""><%=" #{c.portugues()} " %></a></li>
     <% end %>
     <li><%=@teste %></li>
 </ul>
+ 
+ <a href="www.jwave.com.br"> JWAVE </a> 
+ 

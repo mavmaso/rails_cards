@@ -1,4 +1,2 @@
 class Card < ApplicationRecord
-
-      
 end
